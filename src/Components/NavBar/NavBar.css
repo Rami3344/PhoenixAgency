@@ -1,0 +1,77 @@
+html{
+    background-color: white;
+}
+.nav-body{
+    background-color: black;
+}
+.logo img{
+    width: 150px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 100px;
+}
+.nav-list{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-list-ul{
+    display: flex;
+    margin-right: 300px;
+}
+.nav-list-li{
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+.nav-list-li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list-li a:hover{
+    color: rgb(139, 139, 139);
+}
+#nav-dropdown{
+    padding: 0px;
+    color: white;
+}
+#nav-dropdown:hover{
+    color: rgb(139, 139, 139);
+}
+.drop-nav{
+    margin: 0;
+}
+.drop-nav li{
+    list-style: none;
+    margin-top: 12px;
+    margin-bottom: 10px;   
+}
+.drop-nav li a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    transition: 0.5s;
+}
+.drop-nav a:hover{
+    transition: 0.5s;
+    background-color: black;
+    padding: 0 10px;
+    color: white;
+}
+.book-meet button{
+    float: right;
+    border: white 1px solid;
+    margin-top: 12px;
+    padding: 11px;
+    width: 180px;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.book-meet button:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 91, 133);
+    border: rgb(0, 91, 133) 1px solid;
+}

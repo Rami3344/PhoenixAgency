@@ -1,0 +1,55 @@
+.disc{
+    background-color: black;
+    height: 866px;
+}
+.disc .gif img{
+    float: right;
+    margin-right: 250px;
+    padding-top: 150px;
+}
+.disc h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Krona One', sans-serif;
+    margin-left: 200px;
+    color: white;
+    padding-top: 150px;
+}
+.disc p{
+    font-size: 28px;
+    font-weight: bold;
+    width: 750px;
+    color: white;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.disc button{
+    border: white 1px solid;
+    padding: 11px;
+    width: 180px;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.disc button:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 91, 133);
+    border: rgb(0, 91, 133) 1px solid;
+}
+.partner-logo {
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.partner-logo li{
+    margin: 0 63px;
+    list-style: none;
+}
+.partner-logo img{
+    background-color: white;
+    width: 150px;
+}

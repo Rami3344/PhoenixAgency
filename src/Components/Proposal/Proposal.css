@@ -1,0 +1,101 @@
+form{
+    justify-content: center;
+    display: flex;
+    margin-left: 150px;
+}
+table{
+    margin-top: 150px;
+}
+.book-meeting{
+    border: rgb(0, 0, 0) 1px solid;
+    margin-top: 12px;
+    margin-left: 29px;
+    padding: 11px;
+    width: 180px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.book-meeting:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(0, 91, 133);
+    border: rgb(0, 91, 133) 1px solid;
+}
+form span{
+    font-size: 28px;
+    color: black;
+    font-family: 'Krona One', sans-serif;
+}
+form h2{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+.inpt{
+    margin-top: 40px;
+    border: black solid 1px;
+    margin-bottom: 40px;
+    width: 250px;
+    height: 50px;
+    margin-right: 40px;
+}
+form li{
+    list-style: none;
+    color: black;
+}
+.rad{
+    display: flex;
+}
+.rad input{
+    cursor: pointer;
+    accent-color: black;
+}
+.rad ul{
+    margin-right: 270px;
+    margin-bottom: 30px;
+}
+.rad-two{
+    display: flex;
+}
+.rad-two input{
+    cursor: pointer;
+    accent-color: black;
+}
+.rad-two ul{
+    margin-right: 251px;
+    margin-bottom: 30px;
+}
+form select{
+    width: 820px;
+    border: black solid 1px;
+    cursor: pointer;
+    height: 50px;
+    margin-bottom: 30px;
+}
+form textarea{
+    margin-bottom: 20px;
+    border: black solid 1px;
+    width: 820px;
+}
+form a{
+    color: black;
+    text-decoration: underline;
+}
+.submit-btn{
+    border: rgb(0, 0, 0) 1px solid;
+    margin-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    width: 130px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.submit-btn:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 1px solid;
+}

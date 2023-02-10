@@ -1,0 +1,54 @@
+.footer{
+    height: 470px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.line-one p{
+    color: rgb(19, 19, 19);
+}
+.line-one img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.icon{
+    padding: 0;
+}
+.line-two{
+margin-left: 200px;
+}
+.line-two h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+.line-two li{
+    list-style: none;
+}
+.line-two li a{
+    color: rgb(19, 19, 19);
+}
+.line-two li a:hover{
+    text-decoration: underline;
+}
+.line-three{
+    margin-left: 200px;
+}
+.line-three h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+.line-three li{
+    list-style: none;
+}
+.line-three li a{
+    color: rgb(19, 19, 19);
+}
+.line-three li a:hover{
+    text-decoration: underline;
+}
