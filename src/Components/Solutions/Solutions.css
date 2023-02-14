@@ -1,0 +1,114 @@
+.head{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.head h2{
+    color: black;
+    font-size: 32px;
+    font-family: 'Krona One', sans-serif;
+}
+.head p{
+    color: black;
+    font-size: 23px;
+    width: 1000px;
+}
+.head button{
+    border: black 1px solid;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 11px;
+    width: 180px;
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.head button:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(0, 91, 133);
+    border: rgb(0, 91, 133) 1px solid;
+}
+.cardSol{
+    margin-top: 100px;
+}
+.cardSol .cards{
+    width: 500px;
+    height: 300px;
+}
+.cardSol .cards img{
+    width: 150px;
+    margin-bottom: 40px;
+}
+.cardSol .cards p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width: 290px;
+    margin: auto;
+    text-align: center;
+}
+.story{
+    margin-left: 200px;
+    margin-top: 120px;
+    height: 1000px;
+}
+.story h1{
+    color: black;
+    font-size: 32px;
+    width: 700px;
+    font-family: 'Krona One', sans-serif;
+}
+.story p{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    width: 600px;
+}
+.story-list{
+    position: absolute;
+    margin-left: 780px;
+    width: 780px;
+}
+.defi{
+    margin-left: 200px;
+    margin-top: 40px;
+    height: 850px;
+}
+.defi h1{
+    color: black;
+    font-size: 32px;
+    width: 700px;
+    font-family: 'Krona One', sans-serif;
+}
+.defi p{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    width: 600px;
+}
+.defi .num td{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.defi .content td{
+    color:black;
+    font-size: 19px;
+    padding-right:50px;
+    padding-bottom: 30px;
+}
+.defi a{
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.defi .carousel{
+    position: absolute;
+    margin-left: 850px;
+    width: 600px;
+}
+.defi img{
+    width: 600px;
+    height: 800px;
+}

@@ -1,0 +1,14 @@
+.head{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.head h2{
+    color: black;
+    font-size: 32px;
+    font-family: 'Krona One', sans-serif;
+}
+.head p{
+    color: black;
+    font-size: 23px;
+    width: 900px;
+}

@@ -15,19 +15,31 @@ const NavBar = () => {
       <div className="nav-list">
         <ul className="nav-list-ul">
           <li className="nav-list-li">
-            <a href="#">CASES</a>
+            <Link to="/Cases">
+              <a href="#">CASES</a>
+            </Link>
+          </li>
+
+          <li className="nav-list-li">
+            <Link to="/Solutions">
+              <a href="#">SOLUTIONS</a>
+            </Link>
+          </li>
+
+          <li className="nav-list-li">
+            <Link to="/Industries">
+              <a href="#">INDUSTRIES</a>
+            </Link>
           </li>
           <li className="nav-list-li">
-            <a href="#">SOLUTIONS</a>
+            <Link to="/Team">
+              <a href="#">TEAM PHOENIX</a>
+            </Link>
           </li>
           <li className="nav-list-li">
-            <a href="#">INDUSTRIES</a>
-          </li>
-          <li className="nav-list-li">
-            <a href="#">TEAM PHOENIX</a>
-          </li>
-          <li className="nav-list-li">
-            <a href="#">BLOG</a>
+            <Link to="/Blog">
+              <a href="#">BLOG</a>
+            </Link>
           </li>
           <li className="nav-list-li">
             <Nav>

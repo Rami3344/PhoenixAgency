@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./Phoenix-black.png";
 import "./Footer.css";
 import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer">
@@ -73,13 +74,19 @@ function Footer() {
             <a href="#">Careers</a>
           </li>
           <li>
+            <Link to="/Privacy">
             <a href="#">Privacy & Policy</a>
+            </Link>
           </li>
           <li>
+            <Link to="/Terms">
             <a href="#">Terms of Payment</a>
+            </Link>
           </li>
           <li>
+            <Link to="/Responsibility">
             <a href="#">Responsibility Disclaimer</a>
+            </Link>
           </li>
           <li>
             <a href="#">Google Partner</a>

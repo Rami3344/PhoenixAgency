@@ -1,0 +1,31 @@
+.head{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.head h2{
+    color: black;
+    font-size: 32px;
+    font-family: 'Krona One', sans-serif;
+}
+.head p{
+    color: black;
+    font-size: 23px;
+    width: 1000px;
+}
+.head button{
+    border: black 1px solid;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 11px;
+    width: 180px;
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.head button:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(0, 91, 133);
+    border: rgb(0, 91, 133) 1px solid;
+}

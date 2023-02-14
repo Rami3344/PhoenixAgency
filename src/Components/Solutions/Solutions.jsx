@@ -1,53 +1,50 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Home.css";
-import gif from "./giphy.gif";
-import logo from "./logo.png";
 import Footer from "../Footer/Footer";
+import CollabList from "../Home/Collab/CollabList";
+import CardsList from "./Cards/CardsList";
 import Carousel from "react-bootstrap/Carousel";
-import CardsList from "../Solutions/Cards/CardsList";
-import CollabList from "./Collab/CollabList";
-import AboutList from "./About/AboutList";
-function Home() {
+import "./Solutions.css";
+
+function Solutions() {
   return (
     <div>
-      <div className="disc">
-        <div className="gif">
-          <img src={gif} />
-        </div>
-        <h1>
-          A Web3 Native <br /> Marketing Agency
-        </h1>
+      <div className="head">
+        <h2>YOUR IDEAS + OUR EXPERTISE = SUCCESS</h2>
         <p>
-          We are a web3 native marketing team helping projects with everything
-          from go-to-market strategy to authority building and web3 growth
-          initiatives.
+          As a Web3 marketing agency with a focus on customer satisfaction,
+          Phoenix Strategy has tailor made the service offering to include
+          services that serve to build and grow your Web3 project. <br />
+          Through a tailored Web3 marketing strategy that uses a mixture of Web3
+          influencers, paid advertising, Web3 social media management, Web3 PR,
+          and Web3 community management, the Phoenix Strategy team drives growth
+          for your Web3 project. <br />
+          Consistency in reporting and communication allows clients and partners
+          to stay in the know and always aware of how their project is
+          performing in relation to the goals and objectives they are trying to
+          achieve.
         </p>
         <Link to="/Proposal">
           <button>GET A PROPOSAL</button>
         </Link>
-        <ul className="partner-logo">
-          <li>
-            <img src={logo} />
-          </li>
-          <li>
-            <img src={logo} />
-          </li>
-          <li>
-            <img src={logo} />
-          </li>
-          <li>
-            <img src={logo} />
-          </li>
-          <li>
-            <img src={logo} />
-          </li>
-          <li>
-            <img src={logo} />
-          </li>
-        </ul>
+        <div className="cardSol">
+          <CardsList />
+        </div>
       </div>
-      <div className="cases">
+      <div className="story">
+        <div className="story-list">
+          <CollabList />
+        </div>
+        <h1>BECOME ONE OF OUR SUCCESS STORIES</h1>
+        <p>
+          Become one of our success stories and be a leader paving the way
+          forward in the blockchain sphere. We are proud to say we have
+          collaborated with more than 100 growth-driven companies in the crypto
+          and Web3 sector, using our industry expertise and top-level
+          connections to reach your targeted audience.
+        </p>
+      </div>
+      <div className="defi">
         <Carousel>
           <Carousel.Item>
             <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhYZGRgYGhoYGBoZGBgaGBwaGhgZGhoaGhgcIS4lHB4rHxoYJjgnKy8xNTU1HCQ7QDs0Py40NTQBDAwMEA8QHhISGDEhISE0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MTQ0NDE0NDQ0NDE0NDE0NP/AABEIASwAqAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAECBAUGBwj/xAA5EAACAQIEAwYEBQMEAwEAAAABAgADEQQSITFBUWEFEyJxgZEGobHwMkLB0eEHFPEjUmKCNHKSM//EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAHhEBAQEBAAMBAQEBAAAAAAAAAAERAhIhMUFRAzL/2gAMAwEAAhEDEQA/AOIVYQLHVYQpz/Qddp63l1BkIOoIuARcW0OoPqDfyMkFP189hChNzbkNxxudvSSQE6a/eunzhNAy87cNABEtDS+w9+B+/eHqpY3AIvqATc287C8iVtw/xa37ymgrRsDt+vn5afSTCC4IvoBqD+bmNrWP0hFQj2+sdE4QajkGu51O+56xrQyjQ/yPvl6yRS+wtw/nfjEiaEqQyLa+x0ttcajfod9ZJBbbSFRen1mpDVbJHZOcsZYinSXDVLJpAskvlIwpi+t8t9bDW3SZsXWaU10kGTnNF8PblwPuOkE9K1+X1kw1nBOf7yJO37S0Usfe/wB/ODI30hqUG1zby6RSVud/vaKRWhTXUAjQee258hv84TMMpGU5ib5sx/DY3XL1NjfpGA6CFO5NrAfYHWXHPQxYm9tP9oIB2NtbeXCSQbXuOP8AgSWW/vt5yZpnpty36i/lGIhfrz8ugtz0+Y5Rsl5MU/sx8sYI5YwSWMg04RBIwDZL6/fpHWnYdeO3ob+8P3J46XFx14aev0iVJQyJtCKnOSVIQLNQCyR2Tp98/pDhZIpKKTJ06x+52I3lp0kgkCg9PaVaqTTqJK1WmDrp85mwZrU9f8X+sE6b/vLj04Nk42mcWVTZIpYdIoxrRYUSCwirKwQEmEjiEQ/zAYLJBZJTa+gPvpqOvp6yd/3gRXjcRBNZJW56/fOSEBwdb2voRrra4PDnreSZQSLC2gvqdTxMSyzRpaE+0QQp072Fv38ou61M08FQyo9T/aAF/wDZzlB9BmPmBKaraaA1pyRpwyiECTQrd1G7uXlp9JFklwZ9SnKlVJp1xYff2JTcTNgoukE6cbWv520/mXCkE1P7MzgpOkUOyRSNAL+0msZRJqf2+UMp5fsQgqHQX03t1ta9pBZLLAUkryKyWWBJTCKZAC0IiwCUkuR1mir2GUbSpSW2st0k4dZqDYSgThGPJ0J8rMB8zMdKZP19t51/YWGD0npnZ1t6jUH3nPYnBsjFWFiCQZJ/1YtnrQEpj5aQqJCJTh1SdJEAKQbJLppwTpKMusspuBNOukqvTH385KiiyQbrLTpBMslhqm6RQrLFMrqmEhFSHVLR8sy0Fl6RAQwUx+70hkFBDLTkkSFVIAcsIiyfdySpAIizRwaaiV6KTX7NpjedOYNvs5sgE0cdgFrqDezDY8D5/vMinWUBmJFkBLbXFhm15aazSwOJJRXtbMqtblcA2+c5/wCk97PrfN9Mat2RUU6qbcxqPcSK4NuRv5GdQMSYKtXJ4xz/AKdfsSyOcqYUruLfWU66TbxAvM2qk9E9xisqol+EC6LbjmF77W3FrGaFSlK705LBnMmm0r1Vmi6StUSZqM9hvpHhnpxplUMn3aSyySrJTm2GVjBYdUhAkorokOqQi0oVVhMACR0SWRTjhIMSo05q4chVudBa5J2A5mUaKyeOwpq0alINlLo6A8iykX8tZuVXM4rtRmw+Pxo8NF6S4ahwL2dlNS3DV2t0vynSLjSO0cLTc2pNhWaiL+Fq4IzEjiRTuBfbMbbzzrtzti+Cp4KpTqU3pMoY2GRgmZSwvYnRr7WvbWdZT7TTGYnApgyzLhmz1ahVlCIFCBCWAuWAI0/e3Hd/f4649JvIPI5pB2nSRyoFaVHEtPAMJ35+MVVZICqkuOsA6y0Z1RJWqJL9VJUdZzooMmvlFJ1Y8woaiPlklSTRZhuoosOiR0WGVZQNUhRTk8kTLCIlIgJMJJhICQSVfEpSR6jmyICzHoOQ4nhaTRZnfFfZlTEYV6VO2clSATYEKysRfhtLvr0Se3BfEfxFTx1TDaNTCPlbMylQrMvjHAEAG9wR6DX1L4f7Sw1QuMN3ZCMFc0wF1sSpPhAYHUXF9feeK4/sKrSqCkcj1MpZkpvnZQLaMANG10AuZ6D/AEq7LenTq1nUqKpRUBFiVTMS9jwJYgf+pmOLb17/AF16k8fT0MvBs8iTIMZ6JjgZnjZo0YzWhnMrVJYtGKSWmKDrK1WaFVZSqJMUUaqxQjpFMgWWSURhCCYdRUh0SCopeXESVEQkXdy0ixFIRXVJLu5YCR8kAKpMztTtxaeZUs9RQWZV8fdqq5i1QAgINgMxXfewMjWq95/qNnNIsqYemjMpru352ykXXewPhyqzG4tYXYvZAxGetWAys5ppSTw0e7ou4XMu7gsXPi8JBUldrS2/I1J/XDfCjs+PDv4mrLVqMozFks7HKb6g2Sw6Ms9fpMSoJ358/wDlpz39Z5/8AVkrdoYqoLeKnfZd8yhsmX8twLcxYmejskv+fxe/oJMVoXu4u7nTXMBo+WG7uPll1MVikVpYKSBSQxWcSrUpy89OAdJFZ7JFLDJFMssZWlinA0xLVJfv5TLqs0RLVJZWpCXqQlRMJHVJT7Wxj0kzU6D122CIVX1ZjsPIEzlj8d1aP/lYCtSF7Zhe1+QzKoJ/7RepPqzm121ZlRS7kKqglmYgKANySdhObxnxRhHqJR/uKfdsGaq+aykLlC0823iLEn/irDjPOviv4uq4xsv4KIN0pg722Zz+Zumw4c5f+HOyuzhQNXHV1LNcrSSpd1UC4LKmucm/hO2l9bzF725Gpxn12mM7UvSfGBlChGp4MMQFAOj4hwNr+Gw3CgDQuROGxXxmy4NMJQDKAuV6rNZmB8TBQPw3JIJve3nOf7VOHLn+2WoqXNu8ZWbpoo025k69JufCHwXWxrKxGShfxOw/EAdVpr+Y8L7DnfSYvVrWSfXVf0f7OZRiKp08S0shWzAqAxNzqPxAW/ielFZzX9OUJpYpjqzY3EFjwJGQaDlpOuZJ04uRz6+qpWNlhmWQWdNZRCR8kOiSYSZvSKhSN3ctlJFlidCqacBVpy6ywbpNS6M1kiliosUDk6cuUhKdOXKBmG12kstUxAUZaQSor9p9q0cOges4RSbDQknnZVBJsNSbaCeUfGHxAMdiEppUCYdGyo75lUk/iquLXAtoBa9vMzsv6jNVdMPhaV82JqFTa9iqAaMR+W7Bj0WdF2N8I4SjTFMUEfSzvURXdzxLFgbeQ0Ez1t9N85JrE7L7K7Go0ArVMLUzfiqVHpszNbXKb3UdFtb5zjfixuyFVkwdN3qnQOr1O6XXU+M3bjawt1nqFX+m/Z1Q5jh8p45HdR/8hrD0EnQ/pv2dTIYYfMQbgO9R19UZsreRE5W/iyx5N8M9gotB+0MSoNCn/wDlTY2Fersq7E5M2+mtjwBnOYzFu752LBsxysWPhF9ApJ8IG2+mk7D+qHa61MWaalTTwyimgGoD2/1LW2INlI/4CcNXszABuAA0tttrxjPSz3W/8N/GWLwoC06gNPPmZXCkEkhm8ViwJAIuOe157T8J/FdHHIXQMjIF7xGsSpa+xH4lurAGw22E+eDhmyXHi13F81rC4tym38MfEdXC1e9R1N1yOrs2VlA8KmwNmFhY20JPAkRLh1zL8fQtSQyzzf4K+P2rVWp4oqDUZBRKIwXO3hyNqctzlI6k89PRi87c+442YsUzHZpHDkWkmtykv1EC8feM7KN7Q+F8XAASW5NAssi9OXazKoBPEge8I1McpnzXGDXpxTRrgXtYRTrOkx5ujy3RqTGSsZbXEWka1uJiQIRMYJzv91eJcRKz5OmDozo53TNl/wCy5T8pq0sQJxP951mhhccdNYXXa0cXbjpI9o9r0qNJ6ruAlNcza69BbmToBxM5mt2jlQtynFfE+NzYd1LkBmRzpuUJIX3PpYTHXM+rL7xwuPxDVqlSoVCtUqO+UE2BqOWKg7WF7XlarSy+JdVBtc208wCbajnwk0zMSbgdL2O4Fz6mNXqkkm5NrKuYG4VQCoGumUC0w7RJKhFj4QLciQQBlJF7X3Ox0vKrpvaxBPCx6+2ol5XZksWB3zBrm7E7i3mPWUUpkaHztsNN9/vaKSpYdiCpUm6kNysV167Ge0/AnxCcRh8rkmpRsrk/mU3yP7Cx6qZ44jFSCQtiB+UkLtcjMN7jfqZ3H9MsSA9dRlGZUNr6+FmHhH5h4t76ab303x6rHfuPXcJV0Pn+kI1SZmDreE35/pD94OY9528f1x1LE1tU8/2hhWYC43lSqisNTtsQYAu48NweTR4xFnEdpAsAb3FzaX6XaBI3vMF8OL3Ju3MmWqTADce8eHNmWLLVzEYs2J4gGKZ+IqDKdRsfpHjxhrztXjmrKqVY5bjOcWrqVI7VJSV47VJWVhqkPh65Ey+/AMKtW8C/jMYzLa/lOH7e7SLtk/KpH4WJW53Pnw9ZrdtY/KjKp8XMcP5t9ZxheY6v47cc77WDWsLGw3238ja32YBdb+XTr+0grE8tOJk6wtpx4+tpzdhMPUF7HS/ID5C44yTuTpe25Ovz6ayqL7y13llAsOHt0Ms+JZ7GQBvECB/uUk2tpqNNtTYDa2s0uwcd3NdKgAKoxvoB4TdW1FrnLcjhe0yEOoy6m2gubrc8xv8AzDGupU6ZdVPhte4XUjQGxIY22Fx0iXGOpr3HsjEJXoCqo0YMfF+JbL+E2OhDXE0Hw6BhtYFib9FWw32uZ458O/E9TDK6IisruGAbNZTswFjxFhfgRfWeo4HFCoiOBYOoYA20uL2uJ3l1xsxpPh0CttcZrdRcW/T3kGRfFZRoqEWF9SBfS8CWtAOwlZExFMFVsPygk245bnW+sJ3ahrBRt4dd9U1t5FtfPlKDtAkwNR6dMgnTTPx31bL7BT7xpkOIo1NcOlSGNXSZyPLCPMOtiyjyNR4JHkMRWCgEys4HWra+Wsr1u0CLqvqfe9pTxtfMdBYfWVCuhvM2tzlDF1rymwEPUtIECYrrz6BAjkXj2k0SZxpBV2he7+/4hESHRJcS0ANlsLX389besc0M1yNLW0O+2sM9AmTqUiBp0Hy00iRi1GhXCkDQqQQT5jlPSPhvtodwiObFFC3vcMBttsbAadZ5kKWm+vK1jNTs7FFdLnLvbr0nTmuXc/j1Q40EA3FvON/cg6gzicNjg4sDoDL1KuV0BNp0ctrpHqiBNaZa4sWku943kaaTVYplVMTFA49HkHxQGnQQYfSZrXzHzv042+k5W47ya1aeIJB89PK8HUqkm5gKd777frrClb8pYzZlBqPBPeW8kiydIxZWe1ORyy93JkGpSY1OlNRaGpLpCd1JpTkxfI6U5YWl0iSnDLLIzaZ6Z320194Fm/beWC8p1jczWIi9HiD6cYhcWvJ0455H3hB8NXI1HD2mzhsWG6HlOd1BhqTkcZdc7y6UvHNeY9DFm2u0s98JTFtq8UoM8eTWsY9CoWTMP506Sg9W7c7226gj9YPD4sqpFv03gaNUhr2ubzhevj0Tn606bWUsdzew9TY3mlTW4+kyQPCLnSwPmNP5mij+D7tOnNcuhUAN7cPv9YQ0wN5nYbFEOw4Xv8ht8oTtLF+HLqCdb7bGXfWpl3FpqfKQNLpHwNTMgN7nYk6W0llElntL6U+4g3W200mSQ7npLh5M4uZKk5PUSy+H6SBSxsIxNOUEA1OW8sg6xhqqyCSO0RAjJUQEZgWUbgGxI87G3tDSBWOgkKdbhw42l7DUFewBs1/FmsFtpbxb8+HKTTAVEIrWkW0JGnHjy6yBqQuD99zileKFxzpMiI5jTyuwwqn30/xLRxZ06b8BsBtM+SLGWdVLIv4Ko2a/rw3/AMyWOxOY24bjfluPP74ynRqZfPh9/wASeIr5jf6E2+e015ekz20cI58AI8N7gXuLXOoB5a78RN3NecgjX428zOj7PbcFrkAX6cp046cu4u0zeKpVUFQfzGw9AT+kFQqAqG5gG0xu0MUM6nMbKTtof0HrN9dZGOeduN2o0qO1jAjFXCnpzvykK77S6TleR7wNRpCmxA1jVXFrxphmYCAe1rjlrBYhzYjzNv1lZycvHbX2vMXpucrVFhcwr1JnJU1vfgP1hs0Sr4is8ReBLQTvYy61I0UaNKaVYo1cZcUUU8rZRRRQFFeKKBJTrNPAV/xrfcEg8bTKk1ewNuOnpNS4lmtvAYn/AE7EjS/PTe20yqxJbgDc63/X5yFFyPIx6z62B0G1utvXgN5b1sSc5WnQfw666ADTbjp8vaEqVNQPWZ2Cr2Njtw5R6+JBN50nXpm8+1o4m5t7ydSvdTbgD8hf9Jks2t7wpc5frJ5L4i1XuqtrccvYyKISo14/QXEDScbHa+tt/T0vJd/YEAbn8Wt7ct7W9JnyXDUxLQ5cpVovr+0Neb5vov1IvBMYmMgzy6RNXigy0UmqBFFFOClFFFAUUUUBRRRQHBjGKKAooooCks2lpGKAooooDgyxmlYSanSb5qURmgyYrxiZq1SJikYpnQooopgKKKKAooooCiiigKKKKAooooCiiigKKKKAo4jRCWfQ940UUoUUUUg//9k=" />
@@ -62,88 +59,30 @@ function Home() {
             <img src="data:image/jpeg;base64,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" />
           </Carousel.Item>
         </Carousel>
-        <h1>OUR CASES</h1>
+        <h1>YOUR DEFI & WEB3 GROWTH PARTNER</h1>
         <p>
-          We’re proud to share some of our current and past cases, with some of
-          the web3 industry leaders.
+          We excel at building authentic communities by curating bespoke Web3
+          and crypto activations for growth-ready companies. Applying our
+          industry-leading expertise gained by collaborating with 100+ Web3
+          clients and launching more than 1,000 campaigns since 2019, we know
+          what actually works.
         </p>
         <tr className="num">
           <td>100+</td>
-          <td>1M+</td>
+          <td>500+</td>
           <td>20+</td>
         </tr>
         <tr className="content">
           <td>Web3 Clients</td>
-          <td>Followers gained</td>
+          <td>Growth Strategies</td>
           <td>Employees</td>
         </tr>
         <Link to="/Cases">
           <a href="#">VIEW ALL</a>
         </Link>
       </div>
-      <div className="solutions">
-        <div className="cardHome">
-          <CardsList />
-        </div>
-        <h1>SOLUTIONS</h1>
-        <p>
-          We offer a full 360 marketing solution with everything from
-          go-to-market strategy to authority building and web3 community growth
-          initiatives. <br /> Take a look at our catalog of solutions.
-        </p>
-        <Link to="/Solutions">
-          <a href="#">VIEW ALL</a>
-        </Link>
-      </div>
-      <div className="testimonials">
-        <div className="collab-home">
-          <CollabList />
-        </div>
-        <h1>TESTIMONIALS</h1>
-        <p>
-          We are proud to say we have collaborated with more than 100 web3
-          projects, here is what some of our collaborators have to say about us.{" "}
-        </p>
-      </div>
-      <div className="about">
-        <div className="about-list">
-          <AboutList />
-        </div>
-        <h1>ABOUT US</h1>
-        <p>
-          Established in May 2019, Phoenix Strategy has quickly risen to the
-          forefront of the Blockchain marketing industry by establishing
-          critical relationships with crypto industry influencers, role players,
-          and thought leaders.
-        </p>
-        <p>
-          Our industry-leading experts in traditional and Web3 marketing offer
-          SEO, Google Ads, social media management, influencer marketing, paid
-          ad campaigns, blog creation, content creation, community management,
-          and public relations services to our ever-growing client base.
-        </p>
-      </div>
-      <div className="notif">
-        <h2>STAY IN THE LOOP</h2>
-        <p>
-          Stay up to date with everything web3, web3 marketing, and team Phoenix
-          Strategy.
-        </p>
-        <h1>ENTER EMAIL ADDRESS</h1>
-        <input type="email" />
-        <button>SUBSCRIBE</button>
-      </div>
-      <div className="latest">
-        <h1>LATEST BLOG ARTICLES</h1>
-        <p>
-          Stay up to date with everything web3, web3 marketing, and team Phoenix
-          Strategy.
-        </p>
-        {/*articles*/}
-      </div>
       <Footer />
     </div>
   );
 }
-
-export default Home;
+export default Solutions;
