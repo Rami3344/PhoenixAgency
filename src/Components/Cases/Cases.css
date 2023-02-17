@@ -1,18 +1,18 @@
-.head{
+.head-case{
     margin-left: 200px;
     margin-top: 200px;
 }
-.head h2{
+.head-case h2{
     color: black;
     font-size: 32px;
     font-family: 'Krona One', sans-serif;
 }
-.head p{
+.head-case p{
     color: black;
     font-size: 23px;
     width: 1000px;
 }
-.head button{
+.head-case button{
     border: black 1px solid;
     margin-top: 12px;
     font-weight: bold;
@@ -23,9 +23,111 @@
     background-color: white;
     transition: 0.5s;
 }
-.head button:hover{
+.head-case button:hover{
     transition: 0.5s;
     color: white;
     background-color: rgb(0, 91, 133);
     border: rgb(0, 91, 133) 1px solid;
+}
+.study{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.sol-card-cases{
+    margin-left: 250px;
+    margin-top: 70px;
+    height: 840px;
+}
+.sol-card-cases h1{
+    color: black;
+    font-size: 32px;
+    font-family: 'Krona One', sans-serif;
+}
+.sol-card-cases p{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    width: 600px;
+}
+.sol-card-cases a{
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.sol-card-cases .card-cases{
+    margin-left: 800px;
+    width: 700px;
+    height: 0;
+}
+.sol-card-cases .card-cases p{
+    padding-right: 10px;
+    width: 300px;
+}
+/*responsive*/
+@media only screen and (max-width: 1700px) and (min-width:1200px) {
+    .head-case{
+        margin-left: 10%;
+        margin-top: 200px;
+    }
+    .head-case h2{
+        color: black;
+        font-size: 28px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .head-case p{
+        color: black;
+        font-size: 20px;
+        width: 90%;
+    }
+    .head-case button{
+        border: black 1px solid;
+        margin-top: 12px;
+        font-weight: bold;
+        font-size: 17px;
+        padding: 7px;
+        width: 180px;
+        color: black;
+        background-color: white;
+        transition: 0.5s;
+    }
+    .study{
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+    .sol-card-cases{
+        margin-left: 10%;
+        margin-top: 70px;
+        height: 800px;
+    }
+    .sol-card-cases h1{
+        color: black;
+        font-size: 28px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .sol-card-cases p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        width: 45%;
+    }
+    .sol-card-cases .card-cases p{
+        font-size: 17px;
+    }
+    .sol-card-cases a{
+        font-size: 19px;
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .sol-card-cases .card-cases{
+        margin-left: 50%;
+        width: 50%;
+        height: 0;
+    }
+    .sol-card-cases .card-cases p{
+        padding-right: 10px;
+        width: 100%;
+    }
+
 }

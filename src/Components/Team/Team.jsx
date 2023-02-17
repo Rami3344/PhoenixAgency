@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Footer/Footer";
+import AboutList from "./About/AboutList";
 import "./Team.css";
 
 function Team() {
@@ -17,6 +18,20 @@ function Team() {
           promote your crypto project and build your ideal community to get the
           results you desire.
         </p>
+      </div>
+      <div className="team">
+        <div className="team-list">
+          <AboutList />
+        </div>
+        <div className="join-team">
+          <h1>JOIN THE TEAM</h1>
+          <p>
+            Join our growing team, learn about our exciting opportunities. Get a
+            chance to work with some passionate, talented and creative
+            individuals.
+          </p>
+          <a href="#">SEE OPEN POSITIONS</a>
+        </div>
       </div>
       <Footer />
     </div>

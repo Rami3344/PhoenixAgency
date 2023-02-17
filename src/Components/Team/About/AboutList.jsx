@@ -1,5 +1,5 @@
 import React from "react";
-import test from "../Collab/test.jfif";
+import test from "./test.jfif";
 import AboutCard from "./AboutCard";
 function AboutList() {
   const arr = [

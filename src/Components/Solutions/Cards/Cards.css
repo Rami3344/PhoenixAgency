@@ -6,11 +6,12 @@
     margin-bottom: 20px;
     transition: 0.5s;
 }
+
 .cards:hover{
     transition: 0.5s;
     height:260px;
-    background-color: rgb(150, 186, 204);
     cursor: pointer;
+    opacity: 0.8;
 }
 .cards img{
     display: block;
@@ -20,6 +21,7 @@
     color: aliceblue;
 }
 .cards p{
+    color: black;
     margin-top: 40px;
     width: 290px;
     text-align: center;
@@ -30,3 +32,33 @@
     display: flex;
     flex-wrap: wrap;
 }
+/*responsive*/
+@media only screen and (max-width: 1700px) and (min-width:1200px) {
+    .cards{
+        background-color: rgb(120 176 203);
+        width: 240px;
+        height: 230px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        transition: 0.5s;
+    }
+    .cards img{
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+        width: 100px;
+        color: aliceblue;
+    }
+    .cards p{
+        color: black;
+        margin-top: 40px;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    .card-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    }

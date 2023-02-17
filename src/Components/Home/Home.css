@@ -1,4 +1,5 @@
 .disc{
+    margin-top: 75px;
     background-color: black;
     height: 866px;
 }
@@ -42,7 +43,6 @@
     margin-top: 220px;
     display: flex;
     justify-content: center;
-    
     align-items: center;
 }
 .partner-logo li{
@@ -117,7 +117,7 @@
     text-decoration: underline;
     font-weight: bold;
 }
-.solutions .cardHome{
+.solutions .card-home{
     margin-left: 800px;
     width: 700px;
     height: 0;
@@ -223,4 +223,229 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 19px;
     width: 600px;
+}
+/*responsive */
+@media only screen and (max-width: 1700px) and (min-width:1200px) {
+    .disc{
+        margin-top: 75px;
+        background-color: black;
+        height: 700px;
+    }
+    .disc .gif img{
+        width: 450px;
+        float: right;
+        margin-right: 10%;
+        padding-top: 150px;
+    }
+    .disc h1{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Krona One', sans-serif;
+        margin-left: 140px;
+        color: white;
+        padding-top: 150px;
+    }
+    .disc p{
+        font-size: 20px;
+        font-weight: bold;
+        width: 40%;
+        color: white;
+        margin-left: 140px;
+        margin-top: 20px;
+    }
+    .disc button{
+        border: white 1px solid;
+        padding: 9px;
+        width: 160px;
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+    .partner-logo{
+        margin-top: 150px;
+    }
+    .partner-logo li{
+        list-style: none;
+        margin-left: 20px;
+    }
+    .partner-logo img{
+        background-color: white;
+        width: 120px;
+    }
+    .cases{
+        margin-left: 10%;
+        margin-top: 150px;
+        height: 850px;
+    }
+    .cases h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .cases p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        width: 40%;
+    }
+    .cases .num td{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .cases .content td{
+        color:black;
+        font-size: 17px;
+        padding-right:50px;
+        padding-bottom: 30px;
+    }
+    .cases a{
+        font-size: 19px;
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .cases .carousel{
+        position: absolute;
+        margin-left: 40%;
+        width:40%;
+    }
+    .cases img{
+        width: 100%;
+        height: 800px;
+    }
+    .solutions{
+        margin-left: 10%;
+        margin-top: 100px;
+        height: 850px;
+    }
+    .solutions h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .solutions p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        width: 40%;
+    }
+    .solutions a{
+        font-size: 19px;
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .solutions .card-home{
+        margin-left: 45%;
+        width: 55%;
+        height: 0;
+    }
+    .solutions .card-home p{
+        width: 100%;
+    }
+    .testimonials{
+        margin-left: 10%;
+        margin-top: 100px;
+        height: 1000px;
+    }
+    .testimonials h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .testimonials p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        width: 40%;
+    }
+    .testimonials .collab-home{
+        position: absolute;
+        margin-left: 40%;
+        width: 50%;
+    }
+    .about{
+        margin-left: 10%;
+        margin-top: 0px;
+        height: 650px;
+    }
+    .about h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .about p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        width: 40%;
+    }
+    .about-list{
+        position: absolute;
+        margin-left: 41%;
+        width: 40%;
+    }
+    .notif{
+        margin-left: 10%;
+        margin-top: 100px;
+        background-color:rgb(120, 203, 168) ;
+        height: 540px;
+        width: 82%;
+    }
+    .notif h2{
+        color: black;
+        font-size: 26px;
+        padding-top: 40px;
+        padding-left: 30px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .notif p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+        padding-left: 30px;
+        width: 600px;
+    }
+    .notif h1{
+        color: black;
+        text-align: center;
+        font-size: 60px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+    .notif input{
+        height: 70px;
+        width: 79%;
+        margin-left: 30px;
+        border: 1px solid black;
+        font-weight: bold;
+        text-align: center;
+        background-color: rgb(120, 203, 168) ;
+    
+    }
+    .notif button{
+        background-color: black;
+        color: white;
+        width: 15%;
+        height: 71px;
+    }
+    .latest{
+        margin-left: 10%;
+        margin-top: 100px;
+    }
+    .latest h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .latest p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        width: 40%;
+    }
 }

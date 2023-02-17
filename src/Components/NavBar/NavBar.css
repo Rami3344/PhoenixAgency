@@ -2,7 +2,11 @@ html{
     background-color: white;
 }
 .nav-body{
+    top: 0;
+    z-index: 100000;
+    width: 100%;
     background-color: black;
+    position: fixed;
 }
 .logo img{
     width: 150px;
@@ -74,4 +78,51 @@ html{
     transition: 0.5s;
     background-color: rgb(0, 91, 133);
     border: rgb(0, 91, 133) 1px solid;
+}
+/*responsive*/
+@media only screen and (max-width: 1700px) and (min-width:1200px) {
+    .logo img{
+        width: 130px;
+        float: left;
+        margin-top: 15px;
+        margin-left: 100px;
+    }
+    .nav-list-ul{
+        display: flex;
+        margin-right: 80px;
+    }
+    .nav-list-li{
+        list-style: none;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-right: 30px;
+    }
+    .nav-list-li a{
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+    }
+    #nav-dropdown{
+        margin-top: 4px;
+        font-size: 14px;
+        padding: 0px;
+        color: white;
+    }
+    .drop-nav li a{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        color: black;
+        transition: 0.5s;
+    }
+    .book-meet button{
+        float: right;
+        border: white 1px solid;
+        margin-top: 15px;
+        padding: 8px;
+        width: 140px;
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+    }
 }

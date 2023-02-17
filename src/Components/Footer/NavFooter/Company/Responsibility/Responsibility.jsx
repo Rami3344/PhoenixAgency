@@ -1,6 +1,7 @@
 import React from "react";
 import "./Responsibility.css";
-import Footer from "../../Footer";
+import Footer from "../../../Footer";
+import "../responsive.css";
 function Responsibility() {
   return (
     <div>

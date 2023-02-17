@@ -47,3 +47,55 @@
     display: flex;
     flex-wrap: wrap;
 }
+/*responsive*/
+@media only screen and (max-width: 1700px) and (min-width:1200px) {
+    .collab-card{
+        width: 40%;
+        height: 290px;
+        border: solid 1px black;
+        margin: 10px;
+    }
+    .collab-card .stars{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .collab-card .stars img{
+        width: 15px;
+    }
+    .collab-card .comment p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position:absolute;
+        margin-left: 20px;
+        font-size: 12px;
+        width: 35%;
+    }
+    .collab-card .profile img{
+        margin-left: 20px;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+    }
+    .collab-card .profile{
+        position:absolute;
+        display: flex;
+        margin-top: 180px;
+    }
+    .collab-card .profile p{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 15px;
+        width: 200px;
+    }
+    .collab-card .profile span{
+        position:absolute;
+        font-size: 13px;
+        margin-left: 76px;
+        padding-top: 30px;
+    }
+    .collab-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

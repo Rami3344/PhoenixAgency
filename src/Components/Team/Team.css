@@ -12,3 +12,122 @@
     font-size: 23px;
     width: 900px;
 }
+.team-list{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 800px;
+}
+.team-list p{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+.team-list .card-about{
+    width: 100px;
+    margin-left: 350px;
+}
+.team-list .card-about img{
+    width: 300px;
+    height: 250px;
+}
+.team-list .about-card-list{
+    width: 1500px;
+}
+.join-team{
+    background-color: rgb(5, 133, 16);
+    width: 1200px;
+    margin: auto;
+}
+.join-team h1{
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Krona One', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.join-team p{
+    padding-top: 10px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    width: 500px;
+}
+.join-team a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 120px;
+    margin-left:10px;
+    transition: 0.3s;
+}
+.join-team a:hover{
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.623);
+}
+@media only screen and (max-width: 1700px) and (min-width:1200px) {
+    .head{
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+    .head h2{
+        color: black;
+        font-size: 32px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .head p{
+        color: black;
+        font-size: 23px;
+        width: 900px;
+    }
+    .team-list{
+        margin-top: 100px;
+        margin-left: 10%;
+        margin-bottom: 100px;
+        height: 800px;
+
+    }
+    .team-list p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+    }
+    .team-list .card-about{
+        width: 100px;
+        margin-left:7%;
+        margin-right: 12%;
+
+    }
+    .team-list .card-about img{
+        width: 260px;
+        height: 210px;
+    }
+    .team-list .about-card-list{
+        width:100%;
+        
+    }
+    .join-team{
+        background-color: rgb(5, 133, 16);
+        width: 1060px;
+        margin: auto;
+    }
+    .join-team h1{
+        padding-top: 20px;
+        margin-left: 20px;
+        font-family: 'Krona One', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    .join-team p{
+        padding-top: 10px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        width: 500px;
+    }
+    .join-team a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 104px;
+        margin-left:10px;
+        transition: 0.3s;
+    }
+    .join-team a:hover{
+        transition: 0.3s;
+        color: rgba(255, 255, 255, 0.623);
+    }
+}
