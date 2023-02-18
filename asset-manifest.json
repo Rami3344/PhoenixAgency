@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/PhoenixAgency/static/css/main.ca5c26f4.css",
+    "main.js": "/PhoenixAgency/static/js/main.a3702c7a.js",
+    "static/js/787.12b7eb27.chunk.js": "/PhoenixAgency/static/js/787.12b7eb27.chunk.js",
+    "static/media/giphy.gif": "/PhoenixAgency/static/media/giphy.18c7126b57f5b0c694b6.gif",
+    "static/media/fa-solid-900.ttf": "/PhoenixAgency/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/fa-brands-400.ttf": "/PhoenixAgency/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/PhoenixAgency/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/PhoenixAgency/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/fa-regular-400.ttf": "/PhoenixAgency/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/influence.png": "/PhoenixAgency/static/media/influence.48bf6ec494da265a62e2.png",
+    "static/media/fa-regular-400.woff2": "/PhoenixAgency/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/commange.png": "/PhoenixAgency/static/media/commange.e091bfd946082824078f.png",
+    "static/media/bullhorn.png": "/PhoenixAgency/static/media/bullhorn.281364afa5fa4771caf4.png",
+    "static/media/pubrel.png": "/PhoenixAgency/static/media/pubrel.3bf1d6536386513cbbd6.png",
+    "static/media/mediamana.png": "/PhoenixAgency/static/media/mediamana.750fe8a1a90a2b8716e0.png",
+    "static/media/star.png": "/PhoenixAgency/static/media/star.618d11e122cbca3f8e9e.png",
+    "static/media/meeting.png": "/PhoenixAgency/static/media/meeting.37d442acd3103c01c49b.png",
+    "static/media/fa-v4compatibility.ttf": "/PhoenixAgency/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/test.webp": "/PhoenixAgency/static/media/test.59a07f54b2f7552ee38b.webp",
+    "static/media/fa-v4compatibility.woff2": "/PhoenixAgency/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "static/media/test.jfif": "/PhoenixAgency/static/media/test.a3fed752aa5270748e88.jfif",
+    "static/media/web3.svg": "/PhoenixAgency/static/media/web3.915a6b8b8c1bcf714e29260433095558.svg",
+    "index.html": "/PhoenixAgency/index.html",
+    "static/media/chain.svg": "/PhoenixAgency/static/media/chain.19956e89a90569ee07bb6b96130b6f13.svg",
+    "static/media/test.svg": "/PhoenixAgency/static/media/test.0dac8933a5cc5964371bacde6dc7b44e.svg",
+    "static/media/defi.svg": "/PhoenixAgency/static/media/defi.c3324f3ba9903d52757a6e1f163ad194.svg",
+    "main.ca5c26f4.css.map": "/PhoenixAgency/static/css/main.ca5c26f4.css.map",
+    "main.a3702c7a.js.map": "/PhoenixAgency/static/js/main.a3702c7a.js.map",
+    "787.12b7eb27.chunk.js.map": "/PhoenixAgency/static/js/787.12b7eb27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca5c26f4.css",
+    "static/js/main.a3702c7a.js"
+  ]
+}
