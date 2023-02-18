@@ -449,3 +449,497 @@
         width: 40%;
     }
 }
+@media only screen and (max-width: 1199px)and (min-width: 600px) {
+    .disc{
+        margin-top: 0px;
+        background-color: black;
+        height: 680px;
+    }
+    .disc .gif{
+        display: block;
+        width: 400px;
+        margin: auto;
+    }
+    .disc .gif img{
+        float: none;
+        position: absolute;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        padding-top: 350px;
+    }
+    .disc h1{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Krona One', sans-serif;
+        margin-left: 0px;
+        color: white;
+        padding-top: 100px;
+    }
+    .disc p{
+        text-align: center;
+        display: block;
+        width: 70%;
+        margin: auto;
+        font-size: 17px;
+        font-weight: bold;
+        color: white;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .disc button{
+        border: white 1px solid;
+        padding: 7px;
+        display: block;
+        margin: auto;
+        width: 160px;
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+        margin-top: 15px;
+    }
+    .partner-logo{
+        margin-top: 270px;
+        position: absolute;
+    }
+    .partner-logo li{
+        list-style: none;
+        margin: 0 5%;
+        margin-left: 0px;
+    }
+    .partner-logo img{
+        background-color: white;
+        width: 100%;
+    }
+    .cases{
+        margin-left: 10%;
+        margin-top: 40px;
+        height: 800px;
+    }
+    .cases h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .cases p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+        width: 90%;
+    }
+    .cases .num td{
+        color: black;
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .cases .content td{
+        color:black;
+        font-size: 16px;
+        padding-right:10px;
+        padding-bottom: 30px;
+    }
+    .cases a{
+        font-size: 19px;
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .cases .carousel{
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 240px;
+        width:80%;
+    }
+    .cases img{
+        width: 100%;
+        height: 600px;
+    }
+    .solutions{
+        margin-left: 10%;
+        margin-top: 100px;
+        height: 1200px;
+    }
+    .solutions h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .solutions p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        width: 90%;
+    }
+    .solutions a{
+        font-size: 19px;
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .solutions .card-home{
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 0%;
+        width: 85%;
+        height: 0;
+    }
+    .solutions .card-home p{
+        width: 100%;
+    }
+    .testimonials{
+        margin-left: 10%;
+        margin-top: 100px;
+        height: 1050px;
+    }
+    .testimonials h1{
+        color: black;
+        font-size: 24px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .testimonials p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        width: 90%;
+    }
+    .testimonials .collab-home{
+        justify-content: center;
+        margin-left: 0%;
+        margin-top: 130px;
+        width: 90%;
+    }
+    .about{
+        margin-left: 10%;
+        margin-top: 0px;
+        height: 950px;
+    }
+    .about h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .about p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        width: 90%;
+    }
+    .about-list{
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 330px;
+        width: 40%;
+    }
+    .notif{
+        margin-left: 10%;
+        margin-top: 00px;
+        background-color:rgb(120, 203, 168) ;
+        height: 540px;
+        width: 82%;
+    }
+    .notif h2{
+        color: black;
+        font-size: 26px;
+        padding-top: 40px;
+        padding-left: 30px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .notif p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+        padding-left: 30px;
+        width: 90%;
+    }
+    .notif h1{
+        color: black;
+        text-align: center;
+        font-size: 39px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+    .notif input{
+        height: 70px;
+        width: 70%;
+        margin-left: 30px;
+        border: 1px solid black;
+        font-weight: bold;
+        text-align: center;
+        background-color: rgb(120, 203, 168) ;
+    
+    }
+    .notif button{
+        background-color: black;
+        color: white;
+        width: 20%;
+        height: 71px;
+    }
+    .latest{
+        margin-left: 10%;
+        margin-top: 100px;
+    }
+    .latest h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .latest p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1199px)and (min-width: 800px) {
+    .about-list{
+        margin-top: 270px;
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .disc{
+        margin-top: 0px;
+        background-color: black;
+        height: 660px;
+    }
+    .disc .gif{
+        display: block;
+        width: 400px;
+        margin: auto;
+    }
+    .disc .gif img{
+        float: none;
+        position: absolute;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        padding-top: 390px;
+    }
+    .disc h1{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Krona One', sans-serif;
+        margin-left: 0px;
+        color: white;
+        padding-top: 100px;
+    }
+    .disc p{
+        text-align: center;
+        display: block;
+        width: 70%;
+        margin: auto;
+        font-size: 17px;
+        font-weight: bold;
+        color: white;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .disc button{
+        border: white 1px solid;
+        padding: 6px;
+        display: block;
+        margin: auto;
+        width: 160px;
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+        margin-top: 15px;
+    }
+    .partner-logo{
+        margin-top: 255px;
+        position: absolute;
+    }
+    .partner-logo li{
+        list-style: none;
+        margin: 0 5%;
+        margin-left: 0px;
+    }
+    .partner-logo img{
+        background-color: white;
+        width: 100%;
+    }
+    .cases{
+        margin-left: 10%;
+        margin-top: 40px;
+        height: 800px;
+    }
+    .cases h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .cases p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+        width: 90%;
+    }
+    .cases .num td{
+        color: black;
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .cases .content td{
+        color:black;
+        font-size: 16px;
+        padding-right:10px;
+        padding-bottom: 30px;
+    }
+    .cases a{
+        font-size: 19px;
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .cases .carousel{
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 240px;
+        width:80%;
+    }
+    .cases img{
+        width: 100%;
+        height: 600px;
+    }
+    .solutions{
+        margin-left: 10%;
+        margin-top: 100px;
+        height: 1200px;
+    }
+    .solutions h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .solutions p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        width: 90%;
+    }
+    .solutions a{
+        font-size: 19px;
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .solutions .card-home{
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 0%;
+        width: 85%;
+        height: 0;
+    }
+    .solutions .card-home p{
+        width: 100%;
+    }
+    .testimonials{
+        margin-left: 10%;
+        margin-top: 100px;
+        height: 2000px;
+    }
+    .testimonials h1{
+        color: black;
+        font-size: 24px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .testimonials p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        width: 90%;
+    }
+    .testimonials .collab-home{
+        justify-content: center;
+        margin-left: 0%;
+        margin-top: 170px;
+        width: 90%;
+    }
+    .about{
+        margin-left: 10%;
+        margin-top: 0px;
+        height: 1300px;
+    }
+    .about h1{
+        color: black;
+        font-size: 27px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .about p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        width: 90%;
+    }
+    .about-list{
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 360px;
+        width: 40%;
+    }
+    .notif{
+        margin-left: 10%;
+        margin-top: 00px;
+        background-color:rgb(120, 203, 168) ;
+        height: 540px;
+        width: 82%;
+    }
+    .notif h2{
+        color: black;
+        font-size: 26px;
+        padding-top: 40px;
+        padding-left: 30px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .notif p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+        padding-left: 30px;
+        width: 90%;
+    }
+    .notif h1{
+        color: black;
+        text-align: center;
+        font-size: 39px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+    .notif input{
+        height: 70px;
+        width: 65%;
+        margin-left: 30px;
+        border: 1px solid black;
+        font-weight: bold;
+        text-align: center;
+        background-color: rgb(120, 203, 168) ;
+    
+    }
+    .notif button{
+        background-color: black;
+        color: white;
+        width: 25%;
+        height: 71px;
+    }
+    .latest{
+        margin-left: 10%;
+        margin-top: 100px;
+    }
+    .latest h1{
+        color: black;
+        font-size: 25px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .latest p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        width: 90%;
+    }
+}

@@ -131,3 +131,70 @@
     }
 
 }
+@media only screen and (max-width: 1199px)and (min-width: 600px) {
+    .head-case{
+        margin-left: 10%;
+        margin-top: 200px;
+    }
+    .head-case h2{
+        color: black;
+        font-size: 28px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .head-case p{
+        color: black;
+        font-size: 20px;
+        width: 90%;
+    }
+    .head-case button{
+        border: black 1px solid;
+        margin-top: 12px;
+        font-weight: bold;
+        font-size: 17px;
+        padding: 7px;
+        width: 180px;
+        color: black;
+        background-color: white;
+        transition: 0.5s;
+    }
+    .study{
+        margin-top: 100px;
+        margin-left: 5%;
+    }
+    .sol-card-cases{
+        margin-left: 10%;
+        margin-top: 70px;
+        height: 1200px;
+    }
+    .sol-card-cases h1{
+        color: black;
+        font-size: 28px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .sol-card-cases p{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        width: 90%;
+    }
+    .sol-card-cases .card-cases p{
+        font-size: 17px;
+    }
+    .sol-card-cases a{
+        font-size: 19px;
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .sol-card-cases .card-cases{
+        position: absolute;
+        margin-top: 210px;
+        margin-left: 0%;
+        width: 85%;
+        height: 0;
+    }
+    .sol-card-cases .card-cases p{
+        padding-right: 10px;
+        width: 100%;
+    }
+}

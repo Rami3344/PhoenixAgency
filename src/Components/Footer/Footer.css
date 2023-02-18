@@ -52,3 +52,125 @@ margin-left: 200px;
 .line-three li a:hover{
     text-decoration: underline;
 }
+@media only screen and (max-width: 1199px)and (min-width: 600px) {
+    .footer{
+        height: 470px;
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .line-one{
+        margin-left: 3%;
+    }
+    .line-one p{
+        color: rgb(19, 19, 19);
+    }
+    .line-one img{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    .icon{
+        padding: 0;
+    }
+    .line-two{
+    margin-left: 4%;
+    }
+    .line-two h2{
+        color: black;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .line-two li{
+        list-style: none;
+    }
+    .line-two li a{
+        color: rgb(19, 19, 19);
+    }
+    .line-two li a:hover{
+        text-decoration: underline;
+    }
+    .line-three{
+        margin-left: 4%;
+    }
+    .line-three h2{
+        color: black;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .line-three li{
+        list-style: none;
+    }
+    .line-three li a{
+        color: rgb(19, 19, 19);
+    }
+    .line-three li a:hover{
+        text-decoration: underline;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .footer{
+        height: 470px;
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .line-one{
+        margin-left: 3%;
+    }
+    .line-one p{
+        color: rgb(19, 19, 19);
+        font-size: 16px;
+    }
+    .line-one img{
+        width: 120px;
+        margin-bottom: 20px;
+    }
+    .icon{
+        padding: 0;
+    }
+    .line-two{
+    margin-left: 0%;
+    }
+    .line-two h2{
+        color: black;
+        font-size: 18px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .line-two li{
+        list-style: none;
+    }
+    .line-two li a{
+        font-size: 14px;
+        color: rgb(19, 19, 19);
+    }
+    .line-two li a:hover{
+        text-decoration: underline;
+    }
+    .line-three{
+        margin-left: 0%;
+    }
+    .line-three h2{
+        color: black;
+        font-size: 18px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .line-three li{
+        list-style: none;
+
+    }
+    .line-three li a{
+        font-size: 14px;
+        color: rgb(19, 19, 19);
+    }
+    .line-three li a:hover{
+        text-decoration: underline;
+    }
+}

@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../../../Footer";
 import "./Terms.css";
-import "../responsive.css";
 function Terms() {
   return (
     <div>
