@@ -93,7 +93,7 @@ function Proposal() {
               type="checkbox"
               style={{ marginRight: "5px", cursor: "pointer" }}
             />
-            By submitting, I agree to Phoenix Strategy's{" "}
+            By submitting, I agree to Phoenix Strategy's
             <a href="#">Privacy Policy</a>
           </tr>
           <tr>
