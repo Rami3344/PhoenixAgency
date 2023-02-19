@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PhoenixAgency/static/css/main.d4262031.css",
-    "main.js": "/PhoenixAgency/static/js/main.d1752df4.js",
+    "main.css": "/PhoenixAgency/static/css/main.f4834679.css",
+    "main.js": "/PhoenixAgency/static/js/main.d97ca4c5.js",
     "static/js/787.12b7eb27.chunk.js": "/PhoenixAgency/static/js/787.12b7eb27.chunk.js",
     "static/media/giphy.gif": "/PhoenixAgency/static/media/giphy.18c7126b57f5b0c694b6.gif",
     "static/media/fa-solid-900.ttf": "/PhoenixAgency/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
@@ -26,12 +26,12 @@
     "static/media/chain.svg": "/PhoenixAgency/static/media/chain.19956e89a90569ee07bb6b96130b6f13.svg",
     "static/media/test.svg": "/PhoenixAgency/static/media/test.0dac8933a5cc5964371bacde6dc7b44e.svg",
     "static/media/defi.svg": "/PhoenixAgency/static/media/defi.c3324f3ba9903d52757a6e1f163ad194.svg",
-    "main.d4262031.css.map": "/PhoenixAgency/static/css/main.d4262031.css.map",
-    "main.d1752df4.js.map": "/PhoenixAgency/static/js/main.d1752df4.js.map",
+    "main.f4834679.css.map": "/PhoenixAgency/static/css/main.f4834679.css.map",
+    "main.d97ca4c5.js.map": "/PhoenixAgency/static/js/main.d97ca4c5.js.map",
     "787.12b7eb27.chunk.js.map": "/PhoenixAgency/static/js/787.12b7eb27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4262031.css",
-    "static/js/main.d1752df4.js"
+    "static/css/main.f4834679.css",
+    "static/js/main.d97ca4c5.js"
   ]
 }
