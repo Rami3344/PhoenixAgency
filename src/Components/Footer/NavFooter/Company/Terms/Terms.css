@@ -98,3 +98,38 @@
         font-weight: bold;
     }
 }
+@media only screen and (max-width: 600px) {
+    .cnt{
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+    .cnt h1{
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        width: 90%;
+        font-family: 'Krona One', sans-serif;
+    }
+    .cnt h2{
+        margin-top: 60px;
+        color: black;
+        font-size: 22px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .cnt p{
+        color: black;
+        font-size: 17px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        width: 90%;
+    }
+    .cnt li{
+        color: black;
+        font-size: 18px;
+        margin-top: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        width: 90%;
+    }
+    .cnt span{
+        font-weight: bold;
+    }
+}

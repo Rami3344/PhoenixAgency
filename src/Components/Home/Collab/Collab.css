@@ -155,7 +155,7 @@
 @media only screen and (max-width: 600px) {
     .collab-card{
         width: 90%;
-        height:7.5cm;
+        height:8cm;
         border: solid 1px black;
         margin: 10px;
     }
@@ -171,8 +171,8 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position:absolute;
         margin-left: 20px;
-        font-size: 15px;
-        width: 85%;
+        font-size: 14px;
+        width: 80%;
     }
     .collab-card .profile img{
         margin-left: 20px;
@@ -183,7 +183,7 @@
     .collab-card .profile{
         position:absolute;
         display: flex;
-        margin-top: 185px;
+        margin-top: 210px;
     }
     .collab-card .profile p{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

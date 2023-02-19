@@ -14,7 +14,7 @@ function Blog() {
           easy-to-understand content.
   </p>*/}
       </div>
-      <h1 style={{ textAlign: "center", color: "black", fontSize: "150px" }}>
+      <h1 style={{ textAlign: "center", color: "black", fontSize: "90px" }}>
         SOON...
       </h1>
       <Footer />

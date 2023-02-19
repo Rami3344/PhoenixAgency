@@ -703,7 +703,7 @@
     .disc{
         margin-top: 0px;
         background-color: black;
-        height: 660px;
+        height: 360px;
     }
     .disc .gif{
         display: block;
@@ -711,22 +711,16 @@
         margin: auto;
     }
     .disc .gif img{
-        float: none;
-        position: absolute;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 400px;
-        padding-top: 390px;
+        display: none;
     }
     .disc h1{
         text-align: center;
-        font-size: 35px;
+        font-size: 28px;
         font-weight: bold;
         font-family: 'Krona One', sans-serif;
         margin-left: 0px;
         color: white;
-        padding-top: 100px;
+        padding-top: 20px;
     }
     .disc p{
         text-align: center;
@@ -751,7 +745,7 @@
         margin-top: 15px;
     }
     .partner-logo{
-        margin-top: 255px;
+        margin-top: 5%;
         position: absolute;
     }
     .partner-logo li{
@@ -766,7 +760,7 @@
     .cases{
         margin-left: 10%;
         margin-top: 40px;
-        height: 800px;
+        height: 730px;
     }
     .cases h1{
         color: black;
@@ -799,12 +793,12 @@
     .cases .carousel{
         position: absolute;
         margin-left: 0%;
-        margin-top: 240px;
+        margin-top: 330px;
         width:80%;
     }
     .cases img{
         width: 100%;
-        height: 600px;
+        height: 450px;
     }
     .solutions{
         margin-left: 10%;
@@ -830,7 +824,7 @@
     }
     .solutions .card-home{
         position: absolute;
-        margin-top: 250px;
+        margin-top: 300px;
         margin-left: 0%;
         width: 85%;
         height: 0;
@@ -840,8 +834,8 @@
     }
     .testimonials{
         margin-left: 10%;
-        margin-top: 100px;
-        height: 2000px;
+        margin-top: 120px;
+        height: 2200px;
     }
     .testimonials h1{
         color: black;
@@ -857,13 +851,13 @@
     .testimonials .collab-home{
         justify-content: center;
         margin-left: 0%;
-        margin-top: 170px;
+        margin-top: 210px;
         width: 90%;
     }
     .about{
         margin-left: 10%;
         margin-top: 0px;
-        height: 1300px;
+        height: 500px;
     }
     .about h1{
         color: black;
@@ -873,48 +867,46 @@
     .about p{
         color: black;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         width: 90%;
     }
     .about-list{
-        position: absolute;
-        margin-left: 0%;
-        margin-top: 360px;
-        width: 40%;
+        display: none;
     }
     .notif{
         margin-left: 10%;
         margin-top: 00px;
         background-color:rgb(120, 203, 168) ;
-        height: 540px;
-        width: 82%;
+        height: 400px;
+        width: 83%;
     }
     .notif h2{
         color: black;
-        font-size: 26px;
-        padding-top: 40px;
-        padding-left: 30px;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 10px;
         font-family: 'Krona One', sans-serif;
     }
     .notif p{
         color: black;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 19px;
-        padding-left: 30px;
-        width: 90%;
+        font-size: 17px;
+        padding-left: 10px;
+        width: 100%;
     }
     .notif h1{
         color: black;
         text-align: center;
-        font-size: 39px;
+        font-size: 30px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        padding-top: 150px;
+        padding-top: 50px;
         padding-bottom: 20px;
     }
     .notif input{
-        height: 70px;
-        width: 65%;
+        height: 50px;
+        width: 60%;
         margin-left: 30px;
+        font-size: 14px;
         border: 1px solid black;
         font-weight: bold;
         text-align: center;
@@ -923,9 +915,11 @@
     }
     .notif button{
         background-color: black;
+        border: none;
         color: white;
-        width: 25%;
-        height: 71px;
+        font-size: 12px;
+        width: 27%;
+        height: 53px;
     }
     .latest{
         margin-left: 10%;

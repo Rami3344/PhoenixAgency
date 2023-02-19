@@ -22,3 +22,29 @@
     display: flex;
     flex-wrap: wrap;
 }
+@media only screen and (max-width: 600px) {
+    .study-card{
+        width:350px;
+        transition: 0.3s;
+    }
+    .study-card:hover{
+        transition: 0.3s;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .study-card img{
+        width: 250px;
+    }
+    .study-card h3{
+        color: black;
+        font-size: 20px;
+    }
+    .study-card p{  
+        color: black;
+    }
+    .study-list{
+        margin-left: 14%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
