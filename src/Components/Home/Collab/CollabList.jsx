@@ -1,49 +1,54 @@
 import React from "react";
 import CollabCard from "./CollabCard";
-import test from "./test.jfif";
+import c1 from "./c1.webp";
+import c2 from "./c2.webp";
+import c3 from "./c3.webp";
+import c4 from "./c4.webp";
+import c5 from "./c5.webp";
+import c6 from "./c6.webp";
 function CollabList() {
   const arr = [
     {
       comment:
-        "Lunar Strategy has demonstrated keen expertise in this field through successful and satisfying deliverables. They communicate thoroughly and responsively, streamlining the workflow and immersing in the tasks. Furthermore, their meticulousness, methodological approach, and foresight are noteworthy.",
-      pic: test,
+        "Working with Phoenix Strategy has been an absolute game-changer for my business. Their expertise and dedication to delivering exceptional results have left me beyond satisfied. From the moment we engaged their services, their team exhibited a deep understanding of my brand and industry.",
+      pic: c1,
       name: "Sam Jackson",
-      pro: "Software Engineer",
+      pro: "Coinzilla",
     },
     {
       comment:
-        "Lunar Strategy has demonstrated keen expertise in this field through successful and satisfying deliverables. They communicate thoroughly and responsively, streamlining the workflow and immersing in the tasks. Furthermore, their meticulousness, methodological approach, and foresight are noteworthy.",
-      pic: test,
-      name: "Sam Jackson",
-      pro: "Software Engineer",
+        " Their creative concepts were innovative and perfectly aligned with my brand. The execution was flawless, resulting in increased brand visibility and customer engagement. Communication was excellent throughout the project.",
+      pic: c2,
+      name: "Paulus Haverinen",
+      pro: "Founder, Hypecloud",
     },
     {
       comment:
-        "Lunar Strategy has demonstrated keen expertise in this field through successful and satisfying deliverables. They communicate thoroughly and responsively, streamlining the workflow and immersing in the tasks. Furthermore, their meticulousness, methodological approach, and foresight are noteworthy.",
-      pic: test,
-      name: "Sam Jackson",
-      pro: "Software Engineer",
+        "Phoenix Strategy has demonstrated keen expertise in this field through successful and satisfying deliverables. They communicate thoroughly and responsively, streamlining the workflow and immersing in the tasks. Furthermore, their meticulousness, methodological approach, and foresight are noteworthy.",
+      pic: c3,
+      name: "Wouter Spruijtenburg",
+      pro: "Director, Ecom Waves Group",
     },
     {
       comment:
-        "Lunar Strategy has demonstrated keen expertise in this field through successful and satisfying deliverables. They communicate thoroughly and responsively, streamlining the workflow and immersing in the tasks. Furthermore, their meticulousness, methodological approach, and foresight are noteworthy.",
-      pic: test,
-      name: "Sam Jackson",
-      pro: "Software Engineer",
+        "I couldn't be happier with the exceptional service provided by Phoenix Strategy. From start to finish, their team displayed a level of professionalism and expertise that exceeded my expectations. They took the time to understand my business objectives and tailored a marketing strategy specifically designed to achieve those goals.",
+      pic: c4,
+      name: "Pepeklist",
+      pro: "Owner, Ikirakenne Ltd",
     },
     {
       comment:
-        "Lunar Strategy has demonstrated keen expertise in this field through successful and satisfying deliverables. They communicate thoroughly and responsively, streamlining the workflow and immersing in the tasks. Furthermore, their meticulousness, methodological approach, and foresight are noteworthy.",
-      pic: test,
-      name: "Sam Jackson",
-      pro: "Software Engineer",
+        "They are a top-notch marketing agency that I would highly recommend to anyone seeking outstanding results.",
+      pic: c5,
+      name: "Toms Selga",
+      pro: "CFO, DoRac",
     },
     {
       comment:
-        "Lunar Strategy has demonstrated keen expertise in this field through successful and satisfying deliverables. They communicate thoroughly and responsively, streamlining the workflow and immersing in the tasks. Furthermore, their meticulousness, methodological approach, and foresight are noteworthy.",
-      pic: test,
-      name: "Sam Jackson",
-      pro: "Software Engineer",
+        " I highly recommend Phoenix Strategy for their outstanding services as a top-tier marketing agency. They are the partner you need to take your business to the next level.",
+      pic: c6,
+      name: "Tyler Mullins",
+      pro: "Founder, Omni Agency",
     },
   ];
   return (

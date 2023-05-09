@@ -47,7 +47,7 @@ function Privacy() {
         <h2>Privacy Policy</h2>
         <p>
           This privacy policy discloses the privacy practices for
-          www.lunarstrategy.com. This privacy policy applies solely to
+          www.Phoenixstrategy.com. This privacy policy applies solely to
           information collected by this web site. It will notify you of the
           following:
         </p>
@@ -68,10 +68,10 @@ function Privacy() {
         </ol>
         <h2>Information Collection, Use, and Sharing</h2>
         <p>
-          Lunar Strategy is the sole owners of the information collected on this
-          site. We only have access to/collect information that you voluntarily
-          give us via email or other direct contact from you. This information
-          will not be sold or rented to anyone. <br />
+          Phoenix Strategy is the sole owners of the information collected on
+          this site. We only have access to/collect information that you
+          voluntarily give us via email or other direct contact from you. This
+          information will not be sold or rented to anyone. <br />
           We will use your information to respond to you, regarding the reason
           you contacted us. We will not share your information with any third
           party outside of our organization, other than as necessary to fulfil
@@ -84,10 +84,10 @@ function Privacy() {
         <h2>Cookies</h2>
         <p>
           COOKIES. Cookies are small bits of data cached in a user’s browser.
-          Lunar Strategy Utilizes cookies to determine whether or not you have
+          Phoenix Strategy Utilizes cookies to determine whether or not you have
           visited the home page in the past. We primarily use Google Cookies
           which we believe are the safest form of cookie use. <br />
-          GOOGLE ANALYTICS COOKIES: Lunar Strategy uses Google Analytics to
+          GOOGLE ANALYTICS COOKIES: Phoenix Strategy uses Google Analytics to
           analyze the use of this website. Google Analytics generates
           statistical and other information about website use by means of
           cookies, which are stored on users’ computers. The information
@@ -123,8 +123,8 @@ function Privacy() {
           be posted on this page. <br />
           <span>
             If you feel that we are not abiding by this privacy policy, you
-            should contact us immediately via info@lunarstrategy.com <br />
-            Our website address is: https://lunarstrategy.com.
+            should contact us immediately via info@phoenixstrategy.com <br />
+            Our website address is: https://phoenixstrategy.com.
           </span>
         </p>
       </div>

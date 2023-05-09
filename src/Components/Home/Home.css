@@ -6,7 +6,8 @@
 .disc .gif img{
     float: right;
     margin-right: 250px;
-    padding-top: 150px;
+    padding-top: 250px;
+    width: 25%;
 }
 .disc h1{
     font-size: 60px;
@@ -50,7 +51,6 @@
     list-style: none;
 }
 .partner-logo img{
-    background-color: white;
     width: 150px;
 }
 .cases{
@@ -90,10 +90,11 @@
     position: absolute;
     margin-left: 800px;
     width: 600px;
+    height: 700px;
 }
 .cases img{
     width: 600px;
-    height: 800px;
+    height: 700px;
 }
 .solutions{
     margin-left: 250px;
@@ -271,7 +272,6 @@
         margin-left: 20px;
     }
     .partner-logo img{
-        background-color: white;
         width: 120px;
     }
     .cases{
@@ -506,11 +506,11 @@
     }
     .partner-logo li{
         list-style: none;
+        width: 100%;
         margin: 0 5%;
         margin-left: 0px;
     }
     .partner-logo img{
-        background-color: white;
         width: 100%;
     }
     .cases{
@@ -698,6 +698,12 @@
         margin-top: 270px;
         margin-left: 15%;
     }
+    .partner-logo li{
+        width: 100%;
+    }
+    .partner-logo img{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 600px) {
     .disc{
@@ -750,11 +756,11 @@
     }
     .partner-logo li{
         list-style: none;
+        width: 100%;
         margin: 0 5%;
         margin-left: 0px;
     }
     .partner-logo img{
-        background-color: white;
         width: 100%;
     }
     .cases{

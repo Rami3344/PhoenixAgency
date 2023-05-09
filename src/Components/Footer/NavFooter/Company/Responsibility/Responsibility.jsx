@@ -7,8 +7,8 @@ function Responsibility() {
       <div className="cnt">
         <h1>RESPONSIBILITY DISCLAIMER</h1>
         <p>
-          Lunar Holding Lda., is a legal entity that works and renders services
-          of design and consulting services of digital marketing to
+          Phoneix Holding Lda., is a legal entity that works and renders
+          services of design and consulting services of digital marketing to
           crypto-related projects and other legal or individual entities. <br />
           We follow the best practices of the industry to vet all our clients
           and to work with strong and reputable projects, however, we are not
@@ -24,18 +24,19 @@ function Responsibility() {
           regarding the accuracy, adequacy, validity, reliability, availability
           or completeness of any information on the website or of the projects
           we work with. <br />
-          Under no circumstance or event, shall Lunar Holding Lda, have any
+          Under no circumstance or event, shall Phoneix Holding Lda, have any
           liability for any loss or damage of any kind incurred because of the
           use of the website or from our work and services, or reliance on any
           information provided on the website, or to and from third parties.{" "}
           <br />
-          The obligations of Lunar Holding LDA, consist solely of the furnishing
-          of information and advice to the client in the form of services. In no
-          event shall Lunar Holding LDA, be required to represent or make
-          management decisions of the Client. All decisions with respect to acts
-          and omissions of the are the Client’s responsibility and shall under
-          no circumstances be liable for any expense incurred or loss in
-          consequence of such acts or omissions. <br />
+          The obligations of Phoneix Holding LDA, consist solely of the
+          furnishing of information and advice to the client in the form of
+          services. In no event shall Phoneix Holding LDA, be required to
+          represent or make management decisions of the Client. All decisions
+          with respect to acts and omissions of the are the Client’s
+          responsibility and shall under no circumstances be liable for any
+          expense incurred or loss in consequence of such acts or omissions.{" "}
+          <br />
           The participation of third parties in any way with any of the projects
           and clients we advise and work with, and your reliance on any
           information is solely at your own risk. We advise all communities to
